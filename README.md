@@ -24,35 +24,35 @@ Meanwhile, crypto users still cannot easily spend their assets in the real world
 **Blink removes Big Tech wallets entirely.**
 
 ### For Users:
-✨ Transfer crypto directly into the BLINK app  
-📱 Pay in-store or online using tap or scan  
-⚡ Settle payments directly on the Stellar blockchain  
+ Transfer crypto directly into the BLINK app  
+ Pay in-store or online using tap or scan  
+ Settle payments directly on the Stellar blockchain  
 
 ### For Merchants:
-💰 Price goods in USD  
-🔄 Accept crypto without volatility  
-🏦 Receive USD instantly via Stellar Anchors  
-💳 Withdraw to local bank accounts  
+ Price goods in USD  
+ Accept crypto without volatility  
+ Receive USD instantly via Stellar Anchors  
+ Withdraw to local bank accounts  
 
 **Blink turns Stellar into a global, open payment network.**
 
 ##  Key Features
 
 ###  For Users
-- ✨ **Non-custodial Stellar wallet** (XLM + Anchor stablecoins)
-- 📱 **Tap-to-Pay (NFC)** - Contactless crypto payments
-- 📷 **Scan-to-Pay (QR)** - Quick QR code transactions  
-- 🚀 **Direct crypto transfers** (no cards, no banks)
-- 🔄 **Path payments** for automatic FX conversion
-- ⚡ **Fast settlement** (~5 seconds)
-- 🔐 **Biometric security** - Fingerprint & Face ID
+-  **Non-custodial Stellar wallet** (XLM + Anchor stablecoins)
+-  **Tap-to-Pay (NFC)** - Contactless crypto payments
+-  **Scan-to-Pay (QR)** - Quick QR code transactions  
+-  **Direct crypto transfers** (no cards, no banks)
+-  **Path payments** for automatic FX conversion
+-  **Fast settlement** (~5 seconds)
+-  **Biometric security** - Fingerprint & Face ID
 
 ###  For Merchants  
-- 💰 **Accept crypto, receive USD**
-- ⚡ **Instant settlement** (T+0 balance update)
-- 🏦 **Bank payouts** via Anchors (T+1 / T+2)
-- 📊 **Merchant dashboard** (transactions, balances, payouts)
-- 🔧 **Multiple integrations** (POS, mobile, and API)
+-  **Accept crypto, receive USD**
+-  **Instant settlement** (T+0 balance update)
+-  **Bank payouts** via Anchors (T+1 / T+2)
+-  **Merchant dashboard** (transactions, balances, payouts)
+-  **Multiple integrations** (POS, mobile, and API)
 
 ## 🏗️ Architecture
 
@@ -286,11 +286,11 @@ We welcome contributions from developers worldwide! Join us in building the futu
 ##  Roadmap
 
 ###  Phase 1: Foundation (Q2 2026)
-- ✅ Project setup and architecture
-- 🔄 Basic wallet functionality  
-- 🔄 Core payment processing
-- 🔄 Merchant dashboard MVP
-- 🔄 Smart contract deployment
+-  Project setup and architecture
+-  Basic wallet functionality  
+-  Core payment processing
+-  Merchant dashboard MVP
+-  Smart contract deployment
 
 ### Phase 2: Core Features (Q3 2026)
 - [ ] NFC tap-to-pay integration
@@ -333,10 +333,10 @@ We believe financial infrastructure should be open, transparent, and community-d
 **Love what we're building?** Give us a ⭐ on GitHub! 
 
 Your support helps us:
-- 🚀 Accelerate development
-- 🌍 Reach more users globally  
-- 💡 Innovate faster
-- 🤝 Grow our community
+-   Accelerate development
+-   Reach more users globally  
+-   Innovate faster
+-   Grow our community
 
 ---
 

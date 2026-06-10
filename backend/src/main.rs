@@ -36,3 +36,28 @@ async fn main() {
         .run(([127, 0, 0, 1], port))
         .await;
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_port_parsing() {
+        std::env::set_var("PORT", "8080");
+        let port: u16 = env::var("PORT")
+            .unwrap_or_else(|_| "3000".to_string())
+            .parse()
+            .expect("Invalid PORT");
+        assert_eq!(port, 8080);
+    }
+
+    #[test]
+    fn test_default_port() {
+        std::env::remove_var("PORT");
+        let port: u16 = env::var("PORT")
+            .unwrap_or_else(|_| "3000".to_string())
+            .parse()
+            .expect("Invalid PORT");
+        assert_eq!(port, 3000);
+    }
+}

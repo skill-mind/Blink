@@ -23,3 +23,10 @@ bcrypt = "0.15"
 jsonwebtoken = "9.2"
 base64 = "0.22"
 hex = "0.4"
+
+[dev-dependencies]
+tokio-test = "0.4"
+mockall = "0.11"
+wiremock = "0.5"
+tempfile = "3.8"
+serial_test = "3.0"
