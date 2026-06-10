@@ -1,14 +1,14 @@
-# Blink 🚀
+# Blink 
 
 **Tap-to-Pay & Scan-to-Pay Crypto Payments on Stellar**
 
 Blink is a Stellar-native payment application that enables users to pay directly with crypto using tap-to-pay (NFC) or scan-to-pay (QR), while merchants receive instant USD settlement via Stellar Anchors. No Apple Pay. No Google Pay. No cards. Just crypto → payment → USD settlement.
 
-## 🌟 Vision
+##  Vision
 
 Modern digital payments are controlled by closed, centralized platforms like Apple Pay and Google Pay. Blink removes Big Tech wallets entirely, creating a global, open payment network powered by Stellar blockchain.
 
-## 🎯 Problem We're Solving
+##  Problem We're Solving
 
 **Modern digital payments are controlled by closed, centralized platforms like Apple Pay and Google Pay. These systems:**
 
@@ -19,7 +19,7 @@ Modern digital payments are controlled by closed, centralized platforms like App
 
 Meanwhile, crypto users still cannot easily spend their assets in the real world without first cashing out. **Crypto is global and instant — but spending it isn't.**
 
-## 💡 Solution
+##  Solution
 
 **Blink removes Big Tech wallets entirely.**
 
@@ -36,9 +36,9 @@ Meanwhile, crypto users still cannot easily spend their assets in the real world
 
 **Blink turns Stellar into a global, open payment network.**
 
-## 🔥 Key Features
+##  Key Features
 
-### 👤 For Users
+###  For Users
 - ✨ **Non-custodial Stellar wallet** (XLM + Anchor stablecoins)
 - 📱 **Tap-to-Pay (NFC)** - Contactless crypto payments
 - 📷 **Scan-to-Pay (QR)** - Quick QR code transactions  
@@ -47,7 +47,7 @@ Meanwhile, crypto users still cannot easily spend their assets in the real world
 - ⚡ **Fast settlement** (~5 seconds)
 - 🔐 **Biometric security** - Fingerprint & Face ID
 
-### 🏪 For Merchants  
+###  For Merchants  
 - 💰 **Accept crypto, receive USD**
 - ⚡ **Instant settlement** (T+0 balance update)
 - 🏦 **Bank payouts** via Anchors (T+1 / T+2)
@@ -70,7 +70,7 @@ Meanwhile, crypto users still cannot easily spend their assets in the real world
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 grantfox/
@@ -100,7 +100,7 @@ grantfox/
 └── README.md            # This file
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -115,8 +115,8 @@ grantfox/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-org/blink.git
-cd grantfox
+git clone https://github.com/skill-mind/Blink
+cd blink
 ```
 
 2. **Setup Frontend**
@@ -148,7 +148,7 @@ soroban contract build
 soroban contract deploy --network testnet --source-account your-account
 ```
 
-## 🔧 Development
+##  Development
 
 ### Frontend Development
 ```bash
@@ -177,7 +177,7 @@ soroban contract test       # Run contract tests
 soroban contract invoke     # Test contract functions
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Run All Tests
 ```bash
@@ -194,7 +194,7 @@ cd smartcontract/blink-contracts && soroban contract test
 npm run test:e2e
 ```
 
-## 📱 Mobile App Features
+##  Mobile App Features
 
 ### 🔐 Core Wallet Features
 - [ ] **Stellar wallet creation** - Generate secure keypairs
@@ -217,39 +217,39 @@ npm run test:e2e
 - [ ] **Transaction signing** - Cryptographic signatures
 - [ ] **Multi-factor auth** - Additional security layers
 
-### 👤 User Experience
+###  User Experience
 - [ ] **Onboarding flow** - Guided setup process
 - [ ] **Contact management** - Save frequent recipients
 - [ ] **Push notifications** - Payment confirmations
 - [ ] **Dark/Light mode** - Theme preferences
 - [ ] **Multi-language** - Internationalization
 
-## 🏪 Merchant Features
+##  Merchant Features
 
-### 💰 Payment Processing
+###  Payment Processing
 - [ ] **Accept crypto payments** - Multiple Stellar assets
 - [ ] **Real-time USD conversion** - Live exchange rates
 - [ ] **Settlement tracking** - Payment status monitoring
 - [ ] **Refund processing** - Automated refund system
 - [ ] **Batch processing** - Handle multiple payments
 
-### 📊 Merchant Dashboard
+###  Merchant Dashboard
 - [ ] **Transaction analytics** - Revenue insights
 - [ ] **Revenue reporting** - Daily/weekly/monthly reports
 - [ ] **Payout management** - Automated USD payouts
 - [ ] **Integration guides** - Developer documentation
 - [ ] **Customer support** - Built-in help system
 
-### 🔧 Integration Options
+###  Integration Options
 - [ ] **POS integration** - Point-of-sale systems
 - [ ] **E-commerce plugins** - WooCommerce, Shopify
 - [ ] **API endpoints** - Custom integrations
 - [ ] **Webhook support** - Real-time notifications
 - [ ] **SDK libraries** - Developer tools
 
-## 🔗 Stellar Integration
+##  Stellar Integration
 
-### 💎 Core Blockchain Components
+###  Core Blockchain Components
 - [ ] **Stellar account creation** - Funded account setup
 - [ ] **Asset transfers** - XLM and token payments
 - [ ] **Path payments** - Multi-hop currency conversion
@@ -257,25 +257,25 @@ npm run test:e2e
 - [ ] **Fee optimization** - Minimal transaction costs
 - [ ] **Multi-signature** - Enhanced security
 
-### 📜 Smart Contracts (Soroban)
+###  Smart Contracts (Soroban)
 - [ ] **Payment processing** - Automated payment logic
 - [ ] **Escrow management** - Secure fund holding
 - [ ] **Multi-signature support** - Shared wallet control
 - [ ] **Upgrade mechanisms** - Contract versioning
 - [ ] **Access controls** - Permission management
 
-## 🌍 Contributing
+##  Contributing
 
 We welcome contributions from developers worldwide! Join us in building the future of payments.
 
-### 🚀 Getting Started
-1. **Explore Issues** - Check our [GitHub Issues](https://github.com/your-org/blink/issues)
+### Getting Started
+1. **Explore Issues** 
 2. **Find Your Fit** - Look for `good-first-issue` and `help-wanted` tags
 3. **Fork & Branch** - Create your feature branch
 4. **Code & Test** - Follow our coding standards
 5. **Submit PR** - Create a detailed pull request
 
-### 📋 Issue Categories
+###  Issue Categories
 - 🏷️ **frontend** - React Native mobile app
 - 🏷️ **backend** - Rust API server  
 - 🏷️ **smartcontract** - Soroban contracts
@@ -283,53 +283,52 @@ We welcome contributions from developers worldwide! Join us in building the futu
 - 🏷️ **security** - Security audits and fixes
 - 🏷️ **ux/ui** - User experience improvements
 
-## 📅 Roadmap
+##  Roadmap
 
-### 🏗️ Phase 1: Foundation (Q2 2026)
+###  Phase 1: Foundation (Q2 2026)
 - ✅ Project setup and architecture
 - 🔄 Basic wallet functionality  
 - 🔄 Core payment processing
 - 🔄 Merchant dashboard MVP
 - 🔄 Smart contract deployment
 
-### 🚀 Phase 2: Core Features (Q3 2026)
+### Phase 2: Core Features (Q3 2026)
 - [ ] NFC tap-to-pay integration
 - [ ] QR code payment system
 - [ ] Biometric security implementation
 - [ ] Anchor USD settlement
 - [ ] Mobile app beta release
 
-### 🌟 Phase 3: Advanced Features (Q4 2026)
+###  Phase 3: Advanced Features (Q4 2026)
 - [ ] Multi-currency support
 - [ ] Advanced merchant tools
 - [ ] API ecosystem
 - [ ] Third-party integrations
 - [ ] Production deployment
 
-### 🌍 Phase 4: Global Expansion (2027)
+###  Phase 4: Global Expansion (2027)
 - [ ] International markets
 - [ ] Regulatory compliance
 - [ ] Partner integrations
 - [ ] Enterprise solutions
 - [ ] Ecosystem growth
 
-## 🤝 Community & Support
+##  Community & Support
 
 
-### 🏆 Recognition
+###  Recognition
 - **Contributors** will be featured in our Hall of Fame
-- **Top contributors** receive exclusive Blink swag
 - **Major contributors** get early access to new features
 - **Community leaders** join our advisory board
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-### 🎯 Why Open Source?
+###  Why Open Source?
 We believe financial infrastructure should be open, transparent, and community-driven. Blink is built by developers, for developers, creating a more inclusive financial system.
 
-## ⭐ Show Your Support
+##  Show Your Support
 
 **Love what we're building?** Give us a ⭐ on GitHub! 
 
