@@ -18,7 +18,7 @@ test:
 
 # Build contracts
 build:
-	soroban contract build
+	cargo build --target wasm32-unknown-unknown --release
 
 # Run all CI checks
 ci: fmt-check lint test build
